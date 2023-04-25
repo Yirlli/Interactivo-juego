@@ -41,7 +41,7 @@ function montoAPagar(){
 montoAPagar();
 alert("Gracias por tu compra " + nombreCompleto + " estamos realizando un sorteo a todos nuestros clientes del día de hoy por un descuento del 50% en su próxima compra para participar debes adivinar la palabra secreta")
 
-let participar = prompt("¿Deseas participar en el sorteo?: ")
+let participar = prompt("¿Deseas participar en el sorteo?: ").toLowerCase();
 let palabraSecreta = "chile"
 function sorteo (){
     if(participar =="si"){
